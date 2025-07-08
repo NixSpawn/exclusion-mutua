@@ -143,11 +143,11 @@ graph TB
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/distributed-mutex.git
-cd distributed-mutex
+git clone https://github.com/NixSpawn/exclusion-mutua.git
+cd exclusion-mutua
 
 # 2. Inicializar módulo Go
-go mod init distributed-mutex
+go mod init exclusion-mutua
 
 # 3. Compilar (opcional)
 go build -o coordinator/coordinator coordinator/main.go
