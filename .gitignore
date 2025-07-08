@@ -1,0 +1,81 @@
+# Binarios compilados de Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Archivos de test
+*.test
+
+# Archivos de coverage
+*.out
+
+# Archivos de Go workspace
+go.work
+
+# Dependencias específicas del proyecto
+vendor/
+
+# Archivos temporales
+tmp/
+temp/
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Archivos de configuración local
+config.local.*
+.env
+.env.local
+
+# Archivos del recurso compartido (se generan dinámicamente)
+shared_resource.txt
+*.txt
+
+# Archivos de backup
+*.bak
+*.backup
+
+# Archivos de debug
+debug
+__debug_bin
+
+# Archivos de distribución
+dist/
+build/
+
+# Archivos de dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de documentación generados
+docs/build/
+
+# Archivos de profiling
+*.prof
+*.pprof
+
+# Archivos de certificados (por seguridad)
+*.pem
+*.key
+*.crt
